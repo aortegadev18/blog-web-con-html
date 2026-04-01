@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
-    <header>
+    <header class="navbar">
         <h1 id="Titulo">BLOG DE ANDRES</h1>
     </header>
     
-    <table>
+    <table class="tabla">
         <tr>
             <th>TEMAS QUE PUEDES VER EN MI BLOG</th>
         </tr>
@@ -28,7 +29,7 @@
         </tr>
     </table>
     
-    <div>
+    <div class="Bienvenida">
         <p>Bienvenido a mi blog, donde comparto mis pensamientos y experiencias sobre tecnología, 
             robótica e inteligencia artificial. Aquí encontrarás artículos interesantes y reflexiones sobre el impacto de estas tecnologías en nuestra sociedad.
         </p>
@@ -41,7 +42,7 @@
                 influyendo en cómo nos comunicamos, trabajamos y vivimos. Su evolución constante ha generado
                  nuevos dispositivos y sistemas que han cambiado radicalmente nuestra realidad.
             </p>
-            <img width="300px" src="Robot Idea.png" alt="Robot Idea">
+            <img width="300px" src="Robot Idea.png" alt="Robot Idea" class="Imagen">
             <p>Espero te haya gustado el artículo.</p>
         </article>
         
@@ -51,7 +52,7 @@
                  Desde la fabricación hasta la medicina, los robots están desempeñando un papel crucial en la mejora de la eficiencia y la calidad de vida. 
                  A medida que la tecnología avanza, se espera que los robots sean cada vez más integrados en nuestra vida diaria, transformando la forma en que trabajamos y nos relacionamos con el mundo que nos rodea.
             </p>
-            <img width="300px" src="Wall e.avif" alt="Robot Idea">
+            <img width="300px" src="Wall e.avif" alt="Robot Idea" class="Imagen">
             <p>Espero te haya gustado el artículo.</p>
         </article>
         
@@ -61,14 +62,17 @@
                 La IA ha tenido un impacto significativo en diversos campos, desde la medicina hasta la industria del entretenimiento, y continúa evolucionando rápidamente. 
                 A medida que la IA se integra cada vez más en nuestra vida cotidiana, plantea importantes preguntas éticas y sociales sobre su uso y sus implicaciones para el futuro de la humanidad.
             </p>
-            <img width="300px" src="Claude.jpg" alt="Robot Idea">
+            <img width="300px" src="Claude.jpg" alt="Robot Idea" class="Imagen">
             <p>Espero te haya gustado el artículo.</p>
         </article>
 
     </section>
+
+    <div class="Boton">
     <a id="Boton1" href="#Titulo">Volver al inicio</a>
-    
-    <footer>
+    </div>
+
+    <footer class="Footer">
         <p>&copy; 2026 My Blog. All rights reserved.</p>
     </footer>
 
@@ -80,47 +84,3 @@
 
 
 </html>
-
-<style>
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-table {
-    border: 1px solid blueviolet;
-    width: 500px;
-    margin: 0 auto; /* Esto centra la tabla horizontalmente */
-}
-
-td, th {
-    border: 1px solid blueviolet;
-}
-#Titulo {
-    color: yellowgreen;
-    text-align: center;
-}
-.Articulo {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-#Boton1 {
-    display: block;
-    width: 150px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: blueviolet;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-
-
-</style>
